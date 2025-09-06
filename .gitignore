@@ -1,0 +1,38 @@
+# Dependencias
+node_modules/
+
+# Logs y depuración
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Entornos/secretos
+.env
+.env.*.local
+
+# Builds / artefactos
+dist/
+build/
+coverage/
+.tmp/
+temp/
+.cache/
+node_modules/.cache/
+
+# Sistemas/editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Herramientas web (opcional, por si pruebas otros frameworks)
+.next/
+.nuxt/
+.parcel-cache/
+.eslintcache
+
+# Archivos de salida opcionales
+# (no generamos .xlsx en disco, se envía por streaming; pero si decides guardarlos localmente)
+*.xlsx
