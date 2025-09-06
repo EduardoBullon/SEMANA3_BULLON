@@ -50,8 +50,8 @@ async function handleReporte(res) {
       'Cache-Control': 'no-store',
     });
 
-    await workbook.xlsx.write(res); // stream hacia la respuesta
-    res.end();                      // cerrar respuesta
+    await workbook.xlsx.write(res); 
+    res.end();                      
   } catch (err) {
     console.error('Error generando el Excel:', err);
     if (!res.headersSent) {
